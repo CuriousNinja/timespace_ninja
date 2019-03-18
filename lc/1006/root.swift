@@ -8,7 +8,7 @@
 
 import XCTest
 
-class MasterSolver: XCTestCase {
+class Killua: XCTestCase {
     
     func testClumsyFact() {
         
