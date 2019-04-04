@@ -47,17 +47,16 @@ class _006: XCTestCase {
     
     override func setUp() {}
     
+    //o(1)
     func testConstantTime() {
-
-        func clumsy(_ N: Int) -> Int {
-            return N>4 ?(N+1) + [-2,0,1,1][(N-3)%4]:(N>0 && N<=4 ? [7,1,2,6][N%4]:0)
-        }
         
-        print(clumsy(10))
-    }
-    
-    func testPerformanceExample() {
-        self.measure {}
+        self.measure {
+            func clumsy(_ N: Int) -> Int {
+                return N>4 ?(N+1) + [-2,0,1,1][(N-3)%4]:(N>0 && N<=4 ? [7,1,2,6][N%4]:0)
+            }
+            
+            print(clumsy(12))
+        }
     }
 }
 
