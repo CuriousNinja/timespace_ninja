@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1088E54A225626E90016B0FC /* CaseNinjaTests.swift */,
-				1088E558225627FF0016B0FC /* 1006.swift */,
+				1088E55A22562D680016B0FC /* lc */,
 				1088E5572256276D0016B0FC /* o */,
 			);
 			path = CaseNinjaTests;
@@ -95,6 +95,14 @@
 				1088E54C225626E90016B0FC /* Info.plist */,
 			);
 			path = o;
+			sourceTree = "<group>";
+		};
+		1088E55A22562D680016B0FC /* lc */ = {
+			isa = PBXGroup;
+			children = (
+				1088E558225627FF0016B0FC /* 1006.swift */,
+			);
+			path = lc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
