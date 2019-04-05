@@ -55,7 +55,7 @@ class _07: XCTestCase {
             
             func sumRange(_ i: Int, _ j: Int) -> Int {
                 
-                //alter way but consumes space for slicing, inefx w.r.t regular loop-range sum
+                //alter way but consumes time/space for slicing, inefx w.r.t regular loop-range sum
                 //let res = ds[i...j].reduce(0,+)
                 
                 var res = 0
