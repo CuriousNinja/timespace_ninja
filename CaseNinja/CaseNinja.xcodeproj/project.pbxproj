@@ -11,6 +11,7 @@
 		1088E54B225626E90016B0FC /* CaseNinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1088E54A225626E90016B0FC /* CaseNinjaTests.swift */; };
 		1088E54D225626E90016B0FC /* CaseNinja.h in Headers */ = {isa = PBXBuildFile; fileRef = 1088E53F225626E80016B0FC /* CaseNinja.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1088E559225627FF0016B0FC /* 1006.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1088E558225627FF0016B0FC /* 1006.swift */; };
+		1088E55E225744B10016B0FC /* 307.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1088E55D225744B10016B0FC /* 307.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		1088E54A225626E90016B0FC /* CaseNinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseNinjaTests.swift; sourceTree = "<group>"; };
 		1088E54C225626E90016B0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1088E558225627FF0016B0FC /* 1006.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1006.swift; sourceTree = "<group>"; };
+		1088E55D225744B10016B0FC /* 307.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 307.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				1088E558225627FF0016B0FC /* 1006.swift */,
+				1088E55D225744B10016B0FC /* 307.swift */,
 			);
 			path = lc;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				1088E559225627FF0016B0FC /* 1006.swift in Sources */,
 				1088E54B225626E90016B0FC /* CaseNinjaTests.swift in Sources */,
+				1088E55E225744B10016B0FC /* 307.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

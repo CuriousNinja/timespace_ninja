@@ -50,6 +50,13 @@ class _006: XCTestCase {
     //o(1)
     func testConstantTime() {
         
+        //1 time, pattern outline
+        //5*4/3 + 2-1, 4*3/2 + 1
+        //floor(10*9/8) + 7 - floor(6*5/4) + 3 - 2*1
+        //floor(11*10/9) + 8 - floor(7*6/5) + 4 - 3*2/1
+        //(13*12/11) + 10 - 9 * 8 / 7 + 6 - 5 * 4 / 3 + 2 - 1
+        //%4:-2, %3:1, %2:1, %1:0
+        
         self.measure {
             func clumsy(_ N: Int) -> Int {
                 return N>4 ?(N+1) + [-2,0,1,1][(N-3)%4]:(N>0 && N<=4 ? [7,1,2,6][N%4]:0)
