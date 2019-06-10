@@ -41,11 +41,7 @@ import XCTest
  
  */
 
-class _006: XCTestCase {
-    
-    override func tearDown() {}
-    
-    override func setUp() {}
+class _1006: XCTestCase {
     
     //o(1)
     func testConstantTime() {
