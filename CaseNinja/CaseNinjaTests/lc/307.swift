@@ -29,12 +29,12 @@ import XCTest
  */
 
 class _07: XCTestCase {
-
-    override func tearDown() {}
-    
-    override func setUp() {}
     
     func testSolution() {
+        
+        class SegmentTree {
+            //FIXME: benchmark optimisation
+        }
         
         class NumArray {
             
@@ -51,7 +51,8 @@ class _07: XCTestCase {
             }
             
             //..
-            //try logn sol
+            //logn_query_res
+            //thnk_recsly_rootinst
             
             func sumRange(_ i: Int, _ j: Int) -> Int {
                 
