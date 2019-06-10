@@ -28,7 +28,7 @@ import XCTest
  
  */
 
-class _07: XCTestCase {
+class _307: XCTestCase {
     
     func testSolution() {
         
